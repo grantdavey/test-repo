@@ -8,18 +8,29 @@
   <meta name="description" content="Hello world!">
   <meta name="author" content="Grant Davey">
 
-  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/normalise.css">
+  <link rel="stylesheet" href="styles/styles.css">
 
 </head>
 
 <body>
   <h1>Hello world!</h1>
-  <p>Demystifying Git and GitHub and working with local and remogte repositories, one file,commit and pull request at a time.</p>
+  <p>Demystifying Git and GitHub and working with local and remogte repositories, one file, commit and pull request at a time.</p>
   <p><a href="about.html">About Hello world!</a></p>
   <h2>Git commands</h2>
   <p>$ git add . - commits changes to the local staging area</p>
   <p>$ git status - tells you the status of filkres in the current branch</p>
   <p>$ git checkout [develop] [feature/XX-XXX]</p>
+  <h2>Git commands to commit and push to GitHub</h2>
+  <p>$ git add .</p>
+  <p>$ git commit -m "type message in quotes"<br />If prompted to add a comment you press i to type your comment then esc to leave. :wq also takes you back to the comand line.</p>
+  <p>$ git checkout develop</p>
+  <p>$ git pull</p>
+  <p>$ git checkout feature.CD-XXXX</p>
+  <p>$ git merge develop</p>
+  <p>$ git push</p>
+  <p>The feature should now be visible in GitHub and can be merged into develop. WARNING - check that you are merging into develop and not master</p>
   <script src="js/scripts.js"></script>
 </body>
 </html>
