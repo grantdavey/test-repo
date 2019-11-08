@@ -1,6 +1,9 @@
 body {
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
+}
+
+.wrapper {
     margin: 2rem;
 }
 
@@ -14,4 +17,24 @@ h2 {
     font-family: 'Rubik', sans-serif;
     font-weight: 700;
     margin: 3rem 0 0 0;
+}
+
+.jumbotron {
+    background: olive;
+    color: #fff;
+    padding: 2rem 2rem;
+}
+
+.jumbotron h1 {
+    font-size:4rem;
+}
+
+.mini-jumbotron {
+    background: olive;
+    color: #fff;
+    padding: 2rem 2rem;
+}
+
+.mini-jumbotron h1 {
+    font-size:3rem;
 }
