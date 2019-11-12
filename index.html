@@ -34,6 +34,12 @@
   <p>$ git merge develop</p>
   <p>$ git push</p>
   <p>The feature should now be visible in GitHub and can be merged into develop. WARNING - check that you are merging into develop and not master</p>
+  <h2>Commit commands</h2>
+  <p>$ git commit -m "Message explaining what the commit is" - commits files to the local staging area</p>
+  <p>$ git commit -a -m "Message about committing an already committed file" - if a file has already been committed, then this command can be used to commit them again. -a adds the files at the same time, so does not require you to 'git add .' them first</p>
+  <p>$ git reset --soft HEAD^ - will undo a commit.</p>
+  <p>$ git add forgotten-file.html - to add a file that you forgot.</p>
+  <p>$ git commit --amend -m "New messga related to the commit" - lets you update the commit message to include the forgotten file.</p>
 </div>
   <script src="js/scripts.js"></script>
 </body>
