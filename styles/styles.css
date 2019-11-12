@@ -38,3 +38,11 @@ h2 {
 .mini-jumbotron h1 {
     font-size:3rem;
 }
+
+p {
+    line-height: 1.5rem;
+}
+
+strong {
+    font-weight: 700;
+}
